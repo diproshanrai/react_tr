@@ -1,0 +1,16 @@
+/* Ass3 */
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#title img {
+    width: 30px;
+    height: 30px;
+}
+#search {
+    display: flex;
+    justify-content: center;
+}
