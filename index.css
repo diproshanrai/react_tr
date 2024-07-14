@@ -1,5 +1,5 @@
-/* Ass3 */
-#title {
+/*Ass3 
+ #title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,4 +13,51 @@
 #search {
     display: flex;
     justify-content: center;
+} */
+
+/* Ass 4 */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    
+    padding: 10px;
+    list-style: none;
+    font-size: 19px;
+    justify-content: center ;
+}
+
+.res-card {
+    width: 120px;
+    padding: 5px;
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+.res-card:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+.food {
+    width: 120px;
+    height: 100px;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
 }
